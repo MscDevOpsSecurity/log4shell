@@ -15,7 +15,7 @@ import java.nio.charset.StandardCharsets;
  */
 public class VictimWebServer {
 
-    public static final int PORT = 8080;
+    public static final int PORT = 8888;
 
     private static final Logger LOGGER = LogManager.getLogger();
 
