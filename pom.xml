@@ -10,8 +10,8 @@
     <description>Log4Shell PoC containing victim and attacker code</description>
          
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <!--<maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>-->
         <!--<java.version>1.8</java.version> comment to use other java versions -->
         <log4j.version>2.14.0</log4j.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>     
