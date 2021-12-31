@@ -82,6 +82,25 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.2.0</version>
             </plugin>
+                 
+               <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-dependency-plugin</artifactId>
+                 <version>2.9</version>
+                 <executions>
+                   <execution>
+                     <id>build-classpath</id>
+                     <phase>generate-sources</phase>
+                     <goals>
+                       <goal>build-classpath</goal>
+                     </goals>
+                     <configuration>
+                       <!-- configure the plugin here -->
+                     </configuration>
+                   </execution>
+                 </executions>
+               </plugin>
+                 
         </plugins>
     </build>
 
